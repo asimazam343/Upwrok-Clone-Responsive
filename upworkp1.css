@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: f1f2f4;
+}
+/* #navbartop{
+    background-color: burlywood;
+}
+
+#inputtop{
+    background-color: chocolate;
+}
+
+#menu{
+    background-color: rgb(30, 210, 39);
+} */
+
+body > div.container-fluid{
+    padding: 1rem;
+}
+
+#btntop button{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-right: none;
+}
+
+#main-input > input{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: transparent;
+  
+ 
+}
+
+#profileimg{
+    border-radius: 50%;
+}
+#leftcontent > div > div:nth-child(3) > div:nth-child(1) > img{
+    margin-top: 0.5rem;
+    width: 40px;
+    height: 40px;
+}
+
+#menu > div > ul > li:nth-child(n) > a{
+    color: white;
+}
+
+#menu > div > ul > li:nth-child(n) > a:hover{
+    color: #13a902;
+}
+
+body > div:nth-child(3) > div > div > a{
+    color: #13a902;
+    
+}
+
+
+body > div:nth-child(2) > div > div.col-md-6 > div > div > button{
+    background-color:#13a902;
+    color: white;
+
+}
+
+body > div:nth-child(4) > div > div > a:nth-child(n) > h6{
+    color: #13a902;
+}
+
+#leftcontent > div > div:nth-child(3) > div > img{
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+#leftcontent > div > div:nth-child(3) > div{
+    display: flex;
+
+}
+
+#leftcontent > div > div:nth-child(3) > div > h6{
+    margin-left: 0.5rem;
+}
+
+#leftcontent > div > div:nth-child(3) > a:nth-child(2){
+    color: #13a902;
+    margin-left: 2.5rem;
+}
+
+#leftcontent > div > div:nth-child(n) > a:nth-child(n) > h6{
+    color: black;
+}
+
+#leftcontent > div > div:nth-child(3) > a:nth-child(4) > p{
+    color: black;
+}
+
+#leftcontent > div > div:nth-child(3) > a:nth-child(5){
+    color: black;
+}
+
+#leftcontent > div > div:nth-child(3) > a:nth-child(7){
+    color: black;
+}
+
+#leftcontent > div > div:nth-child(3) > a:nth-child(11) > p{
+    color: #13a902;
+}
+
+#leftcontent > div > div:nth-child(n) > a:nth-child(n) > p{
+    color: #13a902;}
+
+    #leftcontent > div > div.col-md-6 > div > h5{
+        
+        display: inline-flex;
+    }
+
+
+    #bestmatches > i{
+        float: right;
+    }
+    #post1 > i.fa.fa-gratipay{
+      padding: 0 1rem;;
+        font-size: 30px;
+        float: right;
+        display: none;
+    }
+    #post1 > i.fa.fa-thumbs-up{
+        display: none;
+        font-size: 30px;
+        float: right;
+    }
+
+    #leftcontent > div > div.col-md-6 > div > h6{
+        background-color: rgb(43, 199, 5);
+        display: inline-flex;
+    }
+
+    #post1 > div.ratings p{
+        font-size: 12px;
+        margin-right: 20px;
+        padding-right:5px;
+        
+    }
+    #post1 > div.ratings{
+        display: inline-flex;
+        justify-content: space-between;
+  
+    }
+
+    #\#test1{
+        border: 3px solid #ededed;
+        border-radius: 5px;
+    }
+
+    #post1 > div.btns > div:nth-child(n){
+        background-color: #fffaf7;
+        color: black;
+        border:none;
+        border-radius: 50px;
+    }
+
+    #post1 > div.btns > div:nth-child(n):hover{
+        background-color: #dfdfdf;
+        
+    }
+
+    /* ================================== Scroll bar =================================== */
+    #test1::before,
+#test2::before {
+display: block;
+content: " ";
+margin-top: -65px;
+height: 65px;
+visibility: hidden;
+}
+
+    /* =================================== Scroll bar end =================================== */
+
+     /* =================================== Media Query mobile =================================== */
+    @media only screen and (max-width: 600px) {
+       
+        #post1 > div.btns{
+          
+            margin-bottom: 2rem;
+          
+        }
+
+        #post1 > div.btns{
+          display: inline-flex;
+          padding: 3px;
+        }
+
+        #post1 > div.btns > div:nth-child(n){
+           margin: 0 1px;
+           font-size: 10px;
+          }
+
+          #leftcontent > div > div.col-md-2.p-2{
+              display: none;
+          }
+
+          body > div.container-fluid > div > div > div.col-md-3.mt-2{
+              display: none;
+          }
+
+          #menu{
+              display: none;
+          }
+
+          body > div.container-fluid > div > div > div:nth-child(4) > div{
+              display: none;
+          }
+       
+          #leftcontent > div{
+              padding: 1rem;
+          }
+
+          #leftcontent > div > div:nth-child(3){
+              margin-top: 1rem;
+              box-shadow: 2px 2px 15px black;
+          }
+
+          #leftcontent > div > div:nth-child(3) > div:nth-child(1) > h6{
+              margin-top: 0.7rem;
+          }
+
+          
+
+          #bestmatches > h5{
+              display: inline-flex;
+          }
+      }
+
+      /* =================================== Media Query end mobile =================================== */

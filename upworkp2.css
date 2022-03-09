@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainheader > div > div{
+    background-color: #fffaf7;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#mainheader > div > div > a > h6{
+   color: #13a902; 
+   text-decoration: none;
+
+}
+
+#mainheader > div > div > a{
+    color: #13a902; 
+   
+ 
+ }
+
+#mainheader > div > div > a:hover{
+    color: #13a902; 
+    text-decoration:
+}
+
+
+/* Container container */
+
+body > div.container > div{
+  
+    
+}
+
+#left-content{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+#right-content{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    border-left: none;
+}
+
+#left-content > div.project-info{
+    
+    line-height: 10px;
+}
+
+#left-content > div.project-info > p:nth-child(2){
+    line-height: 10px;
+}
+  
+
+#left-content > div.job-delivery.p-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#left-content > div.expertise-tags.p-3 > div{
+ 
+ height: 100px;
+ padding: 1rem;
+}
+
+
+#left-content > div.expertise-tags.p-3 > div > a:nth-child(6){
+    margin-top: 0.5rem;
+}
+
+#left-content > div.expertise-tags.p-3 > div > a:nth-child(n){
+    background-color: #fffaf7;
+    color: black;
+    border-radius: 50px;
+    border: none;
+}
+#left-content > div.expertise-tags.p-3 > div > a:nth-child(n):hover{
+    background-color: #dfdfdf;
+    color: black;
+}
+
+/* right content */
+
+
+#right-content > div > div.btn.btn-light.mt-2.w-100{
+    border-radius: 50px;
+    color: #13a902; 
+    font-weight: 400;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+#right-content > div > div.btn.btn-success.w-100{
+    border-radius: 50px;
+}
+
+#right-content > div.required-conects{
+    line-height: 10px;
+    
+}
+
+/* Media query Mobile screen  */
+
+@media only screen and (max-width: 600px){
+    #left-content > div.expertise-tags.p-3 > div > a:nth-child(6){
+        margin-top: -0.2rem;
+    }
+
+    #left-content > div.job-delivery.p-3{
+        display: block;
+    }
+
+    #left-content > div.project-type.p-3 > p > b{
+        margin-right: 1rem;
+    }
+}
+
+
+
+
